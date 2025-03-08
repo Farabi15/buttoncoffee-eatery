@@ -1,0 +1,1496 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4231903150571503"
+     crossorigin="anonymous"></script>
+    <meta name="google-adsense-account" content="ca-pub-4231903150571503">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y9QT68Y0BD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y9QT68Y0BD');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Informasi Seputar Moqqa Coffee By Vienna Batam Menu Makanan dan Minumam Terbaik Se kota Batam">
+    <meta name="keywords" content="Moqqa Coffee By Vienna, Recipe Menu, Cefe Di Batam, Tempat Nongkrong di Batam">
+    <meta name="author" content="Moqqa Coffee By Vienna">
+    <title>
+
+
+     [Recipes Menu]</title>
+    <link rel="icon" href="https://logo.clearbit.com/anchorcafeandroastery.com" type="image/x-icon">
+    <style>
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #008a8a;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .logo a {
+    font-size: 2rem;
+    color: #008a8a;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 30px; /* Increased margin to add space between logo and menu */
+    animation: logoColorChange 4s infinite; /* Animation to change logo color */
+}
+
+@keyframes logoColorChange {
+    0% {
+        color: #008a8a;
+    }
+    25% {
+        color: #d9e7e7;
+    }
+    50% {
+        color: #008a8a;
+    }
+    75% {
+        color: #d9e7e7;
+    }
+    100% {
+        color: #008a8a;
+    }
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Center menu items */
+    margin-top: 0;
+    padding: 0;
+}
+
+header ul li {
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+header ul li:first-child {
+    margin-left: 0; /* Remove left margin from the first item */
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+header ul li a:hover {
+    color: #008a8a;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: url('https://images.unsplash.com/photo-1554118811-1e0d58224f24?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2FmZXxlbnwwfHwwfHx8MA%3D%3D') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #008a8a;
+    position: relative;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85); /* Semi-transparent dark overlay */
+}
+
+.hero-content {
+    z-index: 1;
+    padding: 20px;
+    color: #d9e7e7;
+    max-width: 80%;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.hero p {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+    opacity: 0.8;
+}
+
+.cta-btn {
+    background-color: #008a8a;
+    color: #d9e7e7;
+    padding: 20px 35px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #D4600D;
+    transform: scale(1.05);
+}
+
+/* Modal Styling */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow: auto; /* Menambahkan scroll pada modal jika konten lebih panjang */
+}
+
+/* Konten Modal */
+.modal-content {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    width: 70%;
+    max-width: 600px;
+    max-height: 80vh; /* Menentukan batas tinggi modal */
+    overflow-y: auto; /* Scroll vertikal jika konten melebihi batas */
+    border-radius: 10px;
+}
+
+/* Tombol Close */
+.close {
+    color: #FF6200;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.close:hover,
+.close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+footer ul li a:hover {
+    color: #FF6200;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .cta-btn {
+        padding: 10px 30px;
+        font-size: 1.1rem;
+    }
+
+    header .logo a {
+        font-size: 1.7rem;
+    }
+
+    header ul {
+        flex-direction: column;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    header ul li {
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .cta-btn {
+        padding: 10px 25px;
+        font-size: 1rem;
+    }
+
+    header .logo a {
+        font-size: 1.5rem;
+    }
+
+    header ul {
+        flex-direction: column;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    header ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 0.9rem;
+    }
+
+    .cta-btn {
+        padding: 8px 20px;
+        font-size: 0.9rem;
+    }
+
+    header .logo a {
+        font-size: 1.3rem;
+    }
+
+    header ul {
+        flex-direction: column;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    header ul li {
+        margin-left: 0;
+        margin-bottom: 8px;
+    }
+}
+
+
+/* Job Listings Section (Grid 3 Kolom Horizontal) */
+.job-listings {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Membuat 3 kolom dalam satu baris */
+    gap: 20px; /* Memberikan jarak antar elemen */
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.job-item {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+/* Pastikan gambar dalam setiap job item memiliki lebar yang tepat */
+.job-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.job-item h3 {
+    margin: 15px 0;
+    font-size: 1.5rem;
+}
+
+.job-item p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.job-item .apply-btn {
+    background-color: #FF740F;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border: none;
+}
+
+.job-item .apply-btn:hover {
+    background-color: #D4600D;
+    transform: scale(1.05);
+}
+
+/* Modal for Apply Now */
+#applyModal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow: auto;
+}
+
+.modal-content {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    width: 70%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.modal-content h2 {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+}
+
+.modal-content #modalTitle {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.modal-content #modalDescription {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+/* Close Button */
+.close {
+    color: #FF6200;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.close:hover,
+.close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .job-listings {
+        grid-template-columns: repeat(2, 1fr); /* 2 kolom pada layar lebih kecil */
+    }
+}
+
+@media (max-width: 768px) {
+    .job-listings {
+        grid-template-columns: 1fr; /* 1 kolom pada layar lebih kecil */
+    }
+}
+
+/* FAQ CSS */
+  .faq-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .faq-item {
+    background-color: #f9f9f9;
+    border-left: 5px solid #FF6200;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .faq-item h3 {
+    font-size: 1.2rem;
+    color: #333;
+    padding: 20px;
+  }
+
+  .faq-item p {
+    font-size: 1rem;
+    color: #333;
+  }
+
+  .faq-item a {
+    color: #FF6200;
+    text-decoration: none;
+  }
+
+  .faq-item a:hover {
+    text-decoration: underline;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+        <div class="logo">
+            <a href="https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/4733d1cf-c37a-4500-9676-a04b72e8e707_Go-Biz_20240827_180336.jpeg" target="_blank" style="font-size: 1.8rem; color: white; text-decoration: none; font-weight: bold;">Button Coffee & Eatery</a>
+        </div>
+            <ul>
+                <li><a href="#" id="aboutBtn">About Us</a></li>
+                <li><a href="#" id="servicesBtn">Our Menu</a></li>
+                <li><a href="#" id="contactBtn">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Button Coffee & Eatery</h1>
+            <p>Klik Rasa Terbaik, Ciptakan Momen Istimewa di Setiap Sajian!</p>
+            <a href="#" id="applyBtn" class="cta-btn"><strong>SPECIAL MENU</strong></a>
+        </div>
+    </section>
+
+<!-- Job Listings Section (Grid 3 Kolom) -->
+<section class="job-listings">
+    <div class="job-item">
+        <img src="https://d1r9hss9q19p18.cloudfront.net/uploads/2016/04/hot-black-coffee-1680x1050.jpg" alt="Button Coffee & Eatery">
+        <h3>Americano</h3>
+        <p><strong>Americano</strong> adalah pilihan sempurna untuk penikmat kopi yang menginginkan rasa murni dan kaya. Selamat menikmati!</p>
+        <br />
+        <a href="#" id="applyBtn1" class="cta-btn">DETAILS</a>
+    </div>
+    <div class="job-item">
+        <img src="https://media.istockphoto.com/id/505168330/photo/cup-of-cafe-latte-with-coffee-beans-and-cinnamon-sticks.jpg?s=612x612&w=0&k=20&c=h7v8kAfWOpRapv6hrDwmmB54DqrGQWxlhP_mTeqTQPA=" alt="Caffe Latte">
+        <h3>Caffe Latte</h3>
+        <p>Harmoni Sempurna antara Espresso dan Susu Hangat!</p>
+        <a href="#" id="applyBtn2" class="cta-btn">DETAILS</a>
+    </div>
+    <div class="job-item">
+        <img src="https://i.pinimg.com/736x/e0/14/f7/e014f7b059759f7525b183ef6549d2f2.jpg" alt="Cappucino">
+        <h3>Cappucino</h3>
+        <p>Nikmati Klasiknya, Rasakan Hangatnya!</p>
+        <a href="#" id="applyBtn3" class="cta-btn">DETAILS</a>
+    </div>
+    <div class="job-item">
+        <img src="https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/AVO-LATTE.png" alt="Avocado Button">
+        <h3>Avocado Button</h3>
+        <p>Lembut, Creamy, Bikin Ketagihan!</p>
+        <a href="#" id="applyBtn4" class="cta-btn">DETAILS</a>
+    </div>
+    <div class="job-item">
+        <img src="https://img.freepik.com/premium-photo/chocolate-milkshake-with-pieces-chocolate-chip-cookies_434193-2888.jpg" alt="Chocolate Milkshake Button">
+        <h3>Chocolate Milkshake Button</h3>
+        <p>Perpaduan Cokelat Kaya dan Susu Creamy, Siap Manjakan Setiap Seruputan!</p>
+        <a href="#" id="applyBtn5" class="cta-btn">DETAILS</a>
+    </div>
+    <div class="job-item">
+        <img src="https://media.istockphoto.com/id/95380176/id/foto/croissant-segar.jpg?b=1&s=612x612&w=0&k=20&c=0Tzf70Ngm1eb6ZevksDctkeE2LlDpSpCOjKd5ZSII2M=" alt="Croissant Button">
+        <h3>Croissant Button</h3>
+        <p>Pastry klasik Prancis yang renyah di luar dan lembut di dalam, cocok dinikmati kapan saja!</p>
+        <a href="#" id="applyBtn6" class="cta-btn">DETAILS</a>
+    </div>
+    <!-- Add more job items as needed -->
+</section>
+
+
+<section>
+  <h2>Orang lain juga bertanya</h2>
+
+  <div itemscope itemtype="https://schema.org/FAQPage">
+    <div class="faq-container">
+      
+      <!-- FAQ Item 1 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apa spesialisasi di Button Coffee & Eatery?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Spesialisasi kami adalah berbagai varian kopi premium dan hidangan fusion yang memadukan cita rasa lokal dan internasional.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 2 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Button Coffee & Eatery menyediakan menu vegan?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami memiliki berbagai pilihan menu vegan, mulai dari salad segar hingga burger berbasis nabati.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 3 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah tersedia ruang kerja bersama di Button Coffee & Eatery?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menyediakan area co-working dengan fasilitas Wi-Fi cepat dan stop kontak di setiap meja.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 4 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apa jam operasional Button Coffee & Eatery?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Kami buka setiap hari mulai pukul 07.00 hingga 23.00.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 5 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah menerima reservasi tempat?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menerima reservasi melalui telepon atau media sosial kami untuk acara khusus atau kunjungan berkelompok.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 6 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah ada program loyalitas pelanggan?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami memiliki program loyalitas di mana setiap pembelian akan mendapatkan poin yang dapat ditukar dengan minuman gratis.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 7 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Button Coffee & Eatery ramah untuk anak-anak?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Tentu, kami menyediakan menu khusus anak-anak dan area bermain kecil untuk kenyamanan keluarga.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 8 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah tersedia pilihan minuman non-kafein?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menawarkan berbagai pilihan minuman non-kafein seperti teh herbal, jus segar, dan cokelat panas.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 9 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah tersedia fasilitas parkir?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menyediakan area parkir yang luas dan aman bagi pelanggan kami.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 10 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Bagaimana cara memesan untuk acara khusus?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Anda dapat menghubungi kami melalui telepon atau mengisi formulir di website kami untuk memesan tempat acara khusus.</p>
+  </div>
+</div>
+
+
+
+      <!-- FAQ Item 11 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah menerima pembayaran non-tunai?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menerima pembayaran menggunakan kartu debit/kredit dan e-wallet.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 12 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah ada promo khusus di Button Coffee & Eatery?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Kami secara rutin menawarkan promo menarik, pantau media sosial kami untuk informasi terbaru.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 13 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Button Coffee & Eatery menerima acara privat?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menerima acara privat seperti ulang tahun, gathering, atau meeting.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 14 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah ada menu khusus musiman?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menyajikan menu musiman yang berubah sesuai waktu tertentu.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 15 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah tersedia parkir untuk pelanggan?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menyediakan area parkir yang cukup luas untuk pelanggan.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 16 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Button Coffee & Eatery menyediakan makanan halal?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, semua bahan makanan yang kami gunakan bersertifikat halal.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 17 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Bagaimana cara memesan reservasi?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Anda dapat memesan reservasi melalui telepon atau media sosial kami.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 18 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah bisa memesan makanan untuk dibawa pulang?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, semua menu kami bisa dipesan untuk dibawa pulang.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 19 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah ada program loyalitas pelanggan?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami memiliki program loyalitas dengan reward menarik bagi pelanggan setia.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 20 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Button Coffee & Eatery ramah hewan peliharaan?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, hewan peliharaan diperbolehkan di area outdoor kami.</p>
+  </div>
+</div>
+
+      <!-- FAQ Item 21 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah ada menu khusus anak-anak?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menyediakan beberapa pilihan menu khusus anak-anak.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 22 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah ada pilihan minuman non-kopi?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menawarkan berbagai pilihan minuman seperti teh, jus, dan milkshake.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 23 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Button Coffee & Eatery melayani katering?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami melayani katering untuk berbagai acara.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 24 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah tersedia kursi bayi?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menyediakan kursi bayi untuk kenyamanan keluarga.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 25 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah bisa memesan kue ulang tahun?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menerima pemesanan kue ulang tahun dengan pemberitahuan sebelumnya.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 26 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Bagaimana cara menghubungi Button Coffee & Eatery?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Anda dapat menghubungi kami melalui telepon di [nomor telepon] atau media sosial kami.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 27 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah ada pilihan makanan bebas gluten?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami memiliki beberapa opsi makanan bebas gluten.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 28 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Button Coffee & Eatery mendukung komunitas lokal?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami mendukung komunitas lokal melalui kolaborasi dan acara khusus.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 29 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah tersedia pilihan kopi spesialti?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menyajikan kopi spesialti dari biji kopi pilihan.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 30 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah bisa memesan meja untuk kelompok besar?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menerima reservasi untuk kelompok besar dengan pemberitahuan sebelumnya.</p>
+  </div>
+</div>
+
+
+      <!-- FAQ Item 31 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah ada diskon untuk pelajar atau mahasiswa?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menawarkan diskon khusus bagi pelajar dan mahasiswa dengan menunjukkan kartu identitas.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 32 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah ada paket menu untuk acara?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menyediakan berbagai paket menu untuk acara privat atau perusahaan.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 33 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah tersedia layanan barista training?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menawarkan pelatihan barista secara berkala.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 34 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Button Coffee & Eatery memiliki area outdoor?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami memiliki area outdoor yang nyaman.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 35 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah bisa memesan minuman khusus di luar menu?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, Anda dapat memesan minuman khusus sesuai permintaan.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 36 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah ada program donasi atau CSR?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami secara rutin mengadakan program donasi dan tanggung jawab sosial.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 37 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah tersedia merchandise Button Coffee & Eatery?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menyediakan merchandise eksklusif seperti tumbler dan kaos.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 38 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah bisa menyelenggarakan workshop di Button Coffee & Eatery?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menyediakan ruang untuk workshop atau acara edukasi.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 39 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah ada menu khusus diet?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menyediakan beberapa pilihan menu rendah kalori atau diet khusus.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 40 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Button Coffee & Eatery menyediakan gift card?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menawarkan gift card yang dapat digunakan sebagai hadiah spesial.</p>
+  </div>
+</div>
+
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer -->
+    <footer>
+        <ul>
+            <li><a href="#" id="aboutFooterBtn">About Us</a></li>
+            <li><a href="#" id="privacyFooterBtn">Privacy Policy</a></li>
+            <li><a href="#" id="termsFooterBtn">Terms & Conditions</a></li>
+        </ul>
+        <p>&copy; 2025 Moqqa Coffee By Vienna</p>
+</footer>
+
+<!-- Modal for About Us -->
+    <div id="modal-about" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+<h2>About Us</h2>
+<p>
+    
+
+<h2>**About Us - Button Coffee & Eatery**</h2>
+<br />
+<p><strong>Button Coffee & Eatery</strong> adalah tempat di mana cita rasa berkualitas bertemu dengan suasana nyaman. Kami hadir untuk menyajikan pengalaman kuliner terbaik melalui berbagai pilihan kopi spesial, makanan lezat, dan pelayanan yang ramah.</p>
+
+<p>Dengan biji kopi pilihan yang diseduh secara profesional, setiap cangkir kopi di <strong>Button Coffee & Eatery</strong> memiliki karakter unik yang memanjakan lidah. Kami percaya bahwa secangkir kopi yang sempurna dapat menciptakan momen berharga bagi setiap pelanggan.</p>
+
+<p>Selain kopi, kami juga menawarkan berbagai hidangan dari bahan berkualitas tinggi yang disiapkan dengan penuh perhatian. Mulai dari camilan ringan hingga makanan utama, setiap menu dirancang untuk memuaskan selera Anda.</p>
+
+<p><strong>Mengapa Button Coffee & Eatery?</strong><br>
+- Biji kopi pilihan berkualitas tinggi<br>
+- Suasana hangat dan nyaman untuk bersantai atau bekerja<br>
+- Pelayanan ramah dan profesional<br>
+- Beragam menu lezat untuk menemani setiap momen</p>
+
+<p>Kami mengundang Anda untuk menikmati momen istimewa di <strong>Button Coffee & Eatery</strong>, tempat di mana rasa, kenyamanan, dan kebersamaan bertemu.</p>
+
+<p><strong>Our Services</strong></p>
+
+<p><strong>1. Specialty Coffee & Beverages</strong><br>
+Kami menyajikan berbagai pilihan kopi spesial yang diseduh dengan teknik terbaik. Dari espresso klasik hingga minuman berbasis kopi yang inovatif, semua disiapkan dari biji kopi berkualitas tinggi.</p>
+
+<p><strong>2. Delicious Food Menu</strong><br>
+Nikmati hidangan lezat yang dibuat dari bahan segar dan berkualitas. Kami menawarkan berbagai menu mulai dari sarapan, makan siang, hingga camilan yang cocok untuk menemani waktu santai Anda.</p>
+
+<p><strong>3. Cozy Space for Everyone</strong><br>
+Kami menyediakan ruang yang nyaman dan hangat, cocok untuk bersantai, bekerja, atau mengadakan pertemuan. Dengan desain interior yang modern dan suasana yang menyenangkan, setiap kunjungan Anda menjadi pengalaman yang istimewa.</p>
+
+<p><strong>4. Event & Gathering Services</strong><br>
+Button Coffee & Eatery juga melayani pemesanan untuk acara khusus seperti ulang tahun, pertemuan bisnis, atau perayaan lainnya. Kami siap menyediakan ruang dan layanan yang sesuai dengan kebutuhan Anda.</p>
+
+<p>Apapun kebutuhan Anda, <strong>Button Coffee & Eatery</strong> siap memberikan layanan terbaik untuk menciptakan pengalaman yang tak terlupakan.</p>
+
+
+
+
+
+</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+<!-- Modal for Services -->
+    <div id="modal-services" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Our Services</h2>
+<p><strong>Our Services - Button Coffee & Eatery</strong></p>
+
+<p><strong>1. Specialty Coffee</strong><br>
+Nikmati berbagai pilihan kopi berkualitas tinggi yang diseduh oleh barista profesional kami. Dari <em>Espresso</em> klasik hingga <em>Signature Drinks</em> yang unik, kami menyajikan pengalaman kopi terbaik untuk Anda.</p>
+
+<p><strong>2. Delicious Food Menu</strong><br>
+Kami menawarkan berbagai menu makanan lezat yang cocok dinikmati kapan saja. Mulai dari <em>brunch</em> ringan, makanan utama, hingga dessert manis yang menggugah selera.</p>
+
+<p><strong>3. Cozy Ambiance</strong><br>
+Rasakan suasana yang nyaman dan modern di setiap sudut Button Coffee & Eatery. Tempat yang sempurna untuk bekerja, bersantai, atau menghabiskan waktu bersama orang tercinta.</p>
+
+<p><strong>4. Event & Gathering Space</strong><br>
+Kami menyediakan ruang untuk berbagai acara spesial Anda, mulai dari pertemuan bisnis, ulang tahun, hingga acara komunitas. Dengan fasilitas lengkap dan pelayanan terbaik, momen Anda akan menjadi lebih berkesan.</p>
+
+<p><strong>5. Takeaway & Delivery</strong><br>
+Bawa pulang atau pesan makanan dan minuman favorit Anda dengan mudah melalui layanan takeaway dan pengantaran kami. Kenikmatan Button Coffee & Eatery kini lebih dekat dari yang Anda bayangkan.</p>
+
+<p><strong>Visit Us Today!</strong><br>
+Temukan pengalaman rasa yang tak terlupakan hanya di Button Coffee & Eatery. Kami siap menyambut Anda!</p>
+        </div>
+    </div>
+
+<!-- Modal for Contact -->
+    <div id="modal-contact" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+<h2>Contact Us</h2>
+<p><strong>Button Coffee & Eatery</strong></p>
+
+    <p>Komp. Pertokoan Golden Wealth, Tiban Indah, Kec. Sekupang, Kota Batam, Kepulauan Riau 29424</p>
+
+    <p><strong>Jam Operasional:</strong></p>
+    <ul>
+        <li>Senin, 10.00–23.00</li>
+        <li>Selasa, 10.00–23.00</li>
+        <li>Rabu, 10.00–23.00</li>
+        <li>Kamis, 10.00–23.00</li>
+        <li>Jumat, 10.00–00.00</li>
+        <li>Sabtu, 10.00–00.00</li>
+        <li>Minggu, 10.00–00.00</li>
+    </ul>
+
+    <p><strong>Telepon:</strong> 082287438456</p>
+        </div>
+    </div>
+
+
+
+
+<!-- Modal for Footer About Us -->
+    <div id="modal-footer-about" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+<h2>About Us</h2>
+<p><strong>Button Coffee & Eatery</strong> adalah tempat di mana cita rasa berkualitas bertemu dengan suasana nyaman. Kami hadir untuk menyajikan pengalaman kuliner terbaik melalui berbagai pilihan kopi spesial, makanan lezat, dan pelayanan yang ramah.</p>
+
+<p>Dengan biji kopi pilihan yang diseduh secara profesional, setiap cangkir kopi di <strong>Button Coffee & Eatery</strong> memiliki karakter unik yang memanjakan lidah. Kami percaya bahwa secangkir kopi yang sempurna dapat menciptakan momen berharga bagi setiap pelanggan.</p>
+
+<p>Selain kopi, kami juga menawarkan berbagai hidangan dari bahan berkualitas tinggi yang disiapkan dengan penuh perhatian. Mulai dari camilan ringan hingga makanan utama, setiap menu dirancang untuk memuaskan selera Anda.</p>
+
+<p><strong>Mengapa Button Coffee & Eatery?</strong><br>
+- Biji kopi pilihan berkualitas tinggi<br>
+- Suasana hangat dan nyaman untuk bersantai atau bekerja<br>
+- Pelayanan ramah dan profesional<br>
+- Beragam menu lezat untuk menemani setiap momen</p>
+
+<p>Kami mengundang Anda untuk menikmati momen istimewa di <strong>Button Coffee & Eatery</strong>, tempat di mana rasa, kenyamanan, dan kebersamaan bertemu.</p>
+
+<p><strong>Our Services</strong></p>
+
+<p><strong>1. Specialty Coffee & Beverages</strong><br>
+Kami menyajikan berbagai pilihan kopi spesial yang diseduh dengan teknik terbaik. Dari espresso klasik hingga minuman berbasis kopi yang inovatif, semua disiapkan dari biji kopi berkualitas tinggi.</p>
+
+<p><strong>2. Delicious Food Menu</strong><br>
+Nikmati hidangan lezat yang dibuat dari bahan segar dan berkualitas. Kami menawarkan berbagai menu mulai dari sarapan, makan siang, hingga camilan yang cocok untuk menemani waktu santai Anda.</p>
+
+<p><strong>3. Cozy Space for Everyone</strong><br>
+Kami menyediakan ruang yang nyaman dan hangat, cocok untuk bersantai, bekerja, atau mengadakan pertemuan. Dengan desain interior yang modern dan suasana yang menyenangkan, setiap kunjungan Anda menjadi pengalaman yang istimewa.</p>
+
+<p><strong>4. Event & Gathering Services</strong><br>
+Button Coffee & Eatery juga melayani pemesanan untuk acara khusus seperti ulang tahun, pertemuan bisnis, atau perayaan lainnya. Kami siap menyediakan ruang dan layanan yang sesuai dengan kebutuhan Anda.</p>
+
+<p>Apapun kebutuhan Anda, <strong>Button Coffee & Eatery</strong> siap memberikan layanan terbaik untuk menciptakan pengalaman yang tak terlupakan.</p>
+    </div>
+</div>
+
+<!-- Modal for Privacy Policy -->
+    <div id="modal-footer-privacy" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+<h2>Privacy Policy</h2>
+<p><strong>Kebijakan Privasi - Button Coffee & Eatery</strong></p>
+
+<p>Selamat datang di Button Coffee & Eatery. Kami berkomitmen untuk melindungi privasi dan keamanan informasi pribadi Anda. Kebijakan privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi data Anda saat mengakses layanan kami.</p><br>
+
+<p><strong>1. Informasi yang Kami Kumpulkan</strong></p>
+<p>Kami dapat mengumpulkan informasi pribadi dari Anda, termasuk namun tidak terbatas pada:</p>
+<p>- Nama lengkap<br>- Alamat email<br>- Nomor telepon<br>- Informasi pembayaran (jika berlaku)<br>- Data kunjungan ke situs atau aplikasi kami</p><br>
+
+<p><strong>2. Penggunaan Informasi</strong></p>
+<p>Informasi yang kami kumpulkan digunakan untuk:</p>
+<p>- Memproses pesanan dan pembayaran<br>- Memberikan layanan pelanggan<br>- Mengirimkan promosi atau penawaran khusus (dengan persetujuan Anda)<br>- Meningkatkan layanan dan pengalaman pengguna</p><br>
+
+<p><strong>3. Perlindungan Data</strong></p>
+<p>Kami mengambil langkah-langkah keamanan yang wajar untuk melindungi informasi pribadi Anda dari akses tidak sah, penggunaan yang tidak sah, atau pengungkapan yang tidak sah.</p><br>
+
+<p><strong>4. Berbagi Informasi</strong></p>
+<p>Kami tidak akan membagikan informasi pribadi Anda kepada pihak ketiga tanpa persetujuan Anda, kecuali diwajibkan oleh hukum atau untuk tujuan memproses layanan.</p><br>
+
+<p><strong>5. Hak Anda</strong></p>
+<p>Anda memiliki hak untuk mengakses, memperbarui, atau menghapus informasi pribadi Anda. Jika Anda ingin menggunakan hak ini, silakan hubungi kami melalui informasi kontak di bawah.</p><br>
+
+<p><strong>6. Perubahan Kebijakan Privasi</strong></p>
+<p>Kami dapat memperbarui kebijakan privasi ini dari waktu ke waktu. Perubahan akan diinformasikan melalui situs web kami. Kami mendorong Anda untuk memeriksa kebijakan ini secara berkala.</p><br>
+
+<p><strong>Hubungi Kami</strong></p>
+<p>Jika Anda memiliki pertanyaan tentang kebijakan privasi ini, silakan hubungi kami di:</p>
+<p>Email: info@buttoncoffee.com<br>Telepon: 082287438456</p>
+
+
+        </div>
+    </div>
+
+<!-- Modal for Terms & Conditions -->
+    <div id="modal-footer-terms" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+<h2>Terms and Conditions</h2>
+<p><strong>Terms & Conditions - Button Coffee & Eatery</strong></p>
+
+<p><strong>1. Umum</strong><br>
+Dengan mengunjungi dan menggunakan layanan di Button Coffee & Eatery, Anda setuju untuk mematuhi syarat dan ketentuan yang berlaku di sini.</p>
+
+<p><strong>2. Jam Operasional</strong><br>
+Button Coffee & Eatery beroperasi setiap hari dari pukul 08.00 hingga 22.00 WIB. Jam operasional dapat berubah sewaktu-waktu tanpa pemberitahuan sebelumnya.</p>
+
+<p><strong>3. Pemesanan dan Pembayaran</strong><br>
+Semua pesanan wajib dibayar penuh di muka. Kami menerima pembayaran tunai dan metode pembayaran digital yang tersedia di outlet kami.</p>
+
+<p><strong>4. Kebijakan Pembatalan</strong><br>
+Pembatalan pesanan hanya dapat dilakukan dalam waktu 5 menit setelah pemesanan. Pembatalan di luar waktu tersebut tidak dapat dikembalikan (non-refundable).</p>
+
+<p><strong>5. Kebijakan Konsumsi</strong><br>
+Makanan dan minuman yang dipesan di Button Coffee & Eatery hanya untuk dikonsumsi di tempat, kecuali menu yang secara eksplisit tersedia untuk dibawa pulang (*takeaway*).</p>
+
+<p><strong>6. Tanggung Jawab</strong><br>
+Kami tidak bertanggung jawab atas kehilangan barang pribadi di area Button Coffee & Eatery. Harap menjaga barang bawaan Anda dengan baik.</p>
+
+<p><strong>7. Perilaku Pelanggan</strong><br>
+Kami berhak menolak layanan atau meminta pelanggan meninggalkan tempat jika berperilaku tidak sopan atau mengganggu kenyamanan pelanggan lain.</p>
+
+<p><strong>8. Perubahan Ketentuan</strong><br>
+Button Coffee & Eatery berhak mengubah syarat dan ketentuan ini kapan saja tanpa pemberitahuan sebelumnya.</p>
+
+<p><strong>Dengan menggunakan layanan kami, Anda dianggap telah membaca, memahami, dan menyetujui seluruh ketentuan di atas.</strong></p>
+    </div>
+</div>
+
+  <!-- Modal Caramel Macchiato -->
+  <div id="modal-apply" class="modal" itemscope itemtype="https://schema.org/Recipe">
+      <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2 itemprop="name">Caramel Macchiato</h2>
+          <br>
+          <h3>Manfaat Caramel Macchiato</h3>
+          <ul>
+              <li><span itemprop="description">Meningkatkan Energi: Kandungan kafein membantu meningkatkan fokus dan stamina.</span></li>
+              <li><span itemprop="description">Rasa Lezat: Kombinasi espresso yang kuat dan karamel manis menciptakan rasa yang nikmat.</span></li>
+              <li><span itemprop="description">Mood Booster: Aroma kopi dan rasa manis dapat memperbaiki suasana hati.</span></li>
+          </ul>
+          <br>
+          <h3>Bahan-bahan yang Umum Digunakan</h3>
+          <ul itemprop="ingredients">
+              <li>Espresso (1 shot)</li>
+              <li>Susu (200 ml)</li>
+              <li>Saus karamel</li>
+              <li>Gula (opsional)</li>
+              <li>Es batu (jika disajikan dingin)</li>
+              <li>Vanilla syrup (opsional untuk rasa tambahan)</li>
+          </ul>
+          <br />
+          <h3>Cara Membuat Caramel Macchiato</h3>
+          <ol itemprop="recipeInstructions">
+              <li>Panaskan susu hingga berbusa atau gunakan frother untuk hasil terbaik.</li>
+              <li>Tuangkan susu panas ke dalam gelas.</li>
+              <li>Tambahkan satu shot espresso secara perlahan di atas susu.</li>
+              <li>Siram saus karamel di atasnya untuk menambah rasa manis.</li>
+              <li>Jika diinginkan, tambahkan vanilla syrup atau gula sesuai selera.</li>
+              <li>Sajikan hangat atau tambahkan es batu untuk versi dingin.</li>
+          </ol>
+          <br />
+          <h3>Tips Tambahan</h3>
+          <ol>
+              <li>Gunakan espresso berkualitas tinggi untuk rasa yang lebih autentik.</li>
+              <li>Sesuaikan kadar manis dengan menambah atau mengurangi saus karamel.</li>
+              <li>Sajikan dengan biskuit atau pastry untuk pengalaman yang lebih nikmat.</li>
+          </ol>
+          <br>
+          <p><strong>Caramel Macchiato</strong> adalah minuman sempurna untuk menemani hari Anda. Selamat menikmati!</p>
+          <br>
+          <img src="https://png.pngtree.com/thumb_back/fw800/background/20240401/pngtree-caramel-macchiato-coffee-in-glass-image_15644510.jpg" alt="Caramel Macchiato" width="500" itemprop="image">
+          <br />
+      </div>
+  </div>
+
+
+<!-- Modal Americano -->
+<div id="modal-apply1" class="modal" itemscope itemtype="https://schema.org/Recipe">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 itemprop="name">Americano</h2>
+        <br>
+        <h3>Manfaat Americano</h3>
+        <ul>
+            <li><span itemprop="description">Rendah Kalori: Cocok untuk diet karena tidak mengandung gula atau susu.</span></li>
+            <li><span itemprop="description">Meningkatkan Fokus: Kafein membantu meningkatkan konsentrasi dan kewaspadaan.</span></li>
+            <li><span itemprop="description">Hidrasi: Menyediakan asupan cairan dari air panas yang digunakan.</span></li>
+        </ul>
+        <br>
+        <h3>Bahan-bahan yang Umum Digunakan</h3>
+        <ul itemprop="ingredients">
+            <li>Espresso (1-2 shot)</li>
+            <li>Air panas (150-200 ml)</li>
+        </ul>
+        <br />
+        <h3>Cara Membuat Americano</h3>
+        <ol itemprop="recipeInstructions">
+            <li>Siapkan satu atau dua shot espresso sesuai selera.</li>
+            <li>Tuangkan air panas ke dalam cangkir.</li>
+            <li>Tambahkan espresso ke dalam air panas secara perlahan.</li>
+            <li>Sajikan segera selagi hangat.</li>
+        </ol>
+        <br />
+        <h3>Tips Tambahan</h3>
+        <ol>
+            <li>Gunakan espresso berkualitas tinggi untuk rasa yang lebih baik.</li>
+            <li>Sesuaikan rasio espresso dan air panas sesuai preferensi rasa.</li>
+            <li>Dapat disajikan dingin dengan menambahkan es batu setelah mencampur.</li>
+        </ol>
+        <br>
+        <p><strong>Americano</strong> adalah pilihan klasik bagi pecinta kopi yang menyukai rasa murni dan sederhana. Selamat menikmati!</p>
+        <br>
+        <img src="https://d1r9hss9q19p18.cloudfront.net/uploads/2016/04/hot-black-coffee-1680x1050.jpg" alt="Americano" width="500" itemprop="image">
+        <br />
+    </div>
+</div>
+
+
+<!-- Modal Caffe Latte -->
+<div id="modal-apply2" class="modal" itemscope itemtype="https://schema.org/Recipe">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 itemprop="name">Caffe Latte</h2>
+        <br>
+        <h3>Manfaat Caffe Latte</h3>
+        <ul>
+            <li><span itemprop="description">Rasa Lembut: Kombinasi espresso dan susu memberikan rasa yang lembut dan creamy.</span></li>
+            <li><span itemprop="description">Energi Bertahap: Kafein dalam espresso memberi energi secara perlahan dan stabil.</span></li>
+            <li><span itemprop="description">Kenikmatan Santai: Cocok dinikmati saat bersantai atau memulai hari.</span></li>
+        </ul>
+        <br>
+        <h3>Bahan-bahan yang Umum Digunakan</h3>
+        <ul itemprop="ingredients">
+            <li>1 shot espresso (sekitar 30 ml)</li>
+            <li>150 ml susu hangat (dikukus atau dipanaskan)</li>
+            <li>Foam susu (opsional, untuk topping)</li>
+        </ul>
+        <br />
+        <h3>Cara Membuat Caffe Latte</h3>
+        <ol itemprop="recipeInstructions">
+            <li>Siapkan cangkir besar (sekitar 200 ml) untuk penyajian.</li>
+            <li>Tuangkan espresso yang baru diseduh ke dalam cangkir.</li>
+            <li>Tambahkan susu hangat perlahan hingga hampir penuh.</li>
+            <li>Tambahkan foam susu di atasnya sebagai hiasan (opsional).</li>
+            <li>Sajikan segera dan nikmati kelezatan Caffe Latte.</li>
+        </ol>
+        <br />
+        <h3>Tips Tambahan</h3>
+        <ol>
+            <li>Gunakan biji kopi berkualitas tinggi untuk hasil espresso yang maksimal.</li>
+            <li>Pastikan suhu susu tidak terlalu panas untuk menjaga rasa lembutnya.</li>
+            <li>Tambahkan sirup vanila atau karamel jika menginginkan rasa yang lebih manis.</li>
+        </ol>
+        <br>
+        <p><strong>Caffe Latte</strong> adalah minuman kopi klasik yang menyatukan kekuatan espresso dan kelembutan susu, sempurna untuk menemani momen istirahat Anda!</p>
+        <br>
+        <img src="https://media.istockphoto.com/id/505168330/id/foto/secangkir-latte-kafe-dengan-biji-kopi-dan-batang-kayu-manis.jpg?b=1&s=612x612&w=0&k=20&c=vSDvL8NJuIbLMd7usELAjyYvY7fZ1rGU1BQFBOJxkl4=" alt="Caffe Latte" width="500" itemprop="image">
+        <br />
+    </div>
+</div>
+
+
+<!-- Modal Cappuccino -->
+<div id="modal-apply3" class="modal" itemscope itemtype="https://schema.org/Recipe">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 itemprop="name">Cappuccino</h2>
+        <br>
+        <h3>Manfaat Cappuccino</h3>
+        <ul>
+            <li><span itemprop="description">Aroma Menenangkan: Kombinasi espresso dan susu berbusa menghasilkan aroma yang khas dan menenangkan.</span></li>
+            <li><span itemprop="description">Energi Segar: Kafein dari espresso memberikan dorongan energi yang cepat.</span></li>
+            <li><span itemprop="description">Tekstur Krimi: Lapisan busa susu yang tebal menambah pengalaman minum yang lembut dan nikmat.</span></li>
+        </ul>
+        <br>
+        <h3>Bahan-bahan yang Umum Digunakan</h3>
+        <ul itemprop="ingredients">
+            <li>1 shot espresso (sekitar 30 ml)</li>
+            <li>60 ml susu panas (dikukus)</li>
+            <li>60 ml busa susu tebal</li>
+            <li>Bubuk cokelat atau kayu manis (opsional, untuk taburan)</li>
+        </ul>
+        <br />
+        <h3>Cara Membuat Cappuccino</h3>
+        <ol itemprop="recipeInstructions">
+            <li>Siapkan cangkir berkapasitas sekitar 150 ml.</li>
+            <li>Tuangkan espresso yang baru diseduh ke dalam cangkir.</li>
+            <li>Tambahkan susu panas di atas espresso secara perlahan.</li>
+            <li>Tambahkan busa susu tebal di atasnya hingga penuh.</li>
+            <li>Taburkan bubuk cokelat atau kayu manis sebagai hiasan (opsional).</li>
+            <li>Sajikan segera dan nikmati kelezatan Cappuccino.</li>
+        </ol>
+        <br />
+        <h3>Tips Tambahan</h3>
+        <ol>
+            <li>Gunakan espresso berkualitas tinggi untuk rasa yang kaya dan autentik.</li>
+            <li>Pastikan busa susu cukup tebal untuk membentuk lapisan khas Cappuccino.</li>
+            <li>Tambahkan sirup rasa seperti vanila atau karamel untuk variasi rasa.</li>
+        </ol>
+        <br>
+        <p><strong>Cappuccino</strong> adalah minuman kopi klasik dengan keseimbangan sempurna antara espresso, susu panas, dan busa susu yang lembut. Nikmati kehangatannya di setiap tegukan!</p>
+        <br>
+        <img src="https://i.pinimg.com/736x/e0/14/f7/e014f7b059759f7525b183ef6549d2f2.jpg" alt="Cappuccino" width="500" itemprop="image">
+        <br />
+    </div>
+</div>
+
+
+
+<!-- Modal Avocado Button -->
+<div id="modal-apply4" class="modal" itemscope itemtype="https://schema.org/Recipe">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 itemprop="name">Avocado Button</h2>
+        <br>
+        <h3>Manfaat Avocado Button</h3>
+        <ul>
+            <li><span itemprop="description">Kaya Nutrisi: Mengandung lemak sehat, vitamin, dan mineral dari alpukat segar.</span></li>
+            <li><span itemprop="description">Energi Alami: Kombinasi alpukat dan kopi memberikan dorongan energi secara alami.</span></li>
+            <li><span itemprop="description">Rasa Unik: Perpaduan krimi alpukat dan rasa pahit manis kopi menciptakan pengalaman rasa yang berbeda.</span></li>
+        </ul>
+        <br>
+        <h3>Bahan-bahan yang Umum Digunakan</h3>
+        <ul itemprop="ingredients">
+            <li>1/2 buah alpukat matang</li>
+            <li>1 shot espresso (sekitar 30 ml)</li>
+            <li>100 ml susu cair atau krim (opsional)</li>
+            <li>1-2 sdm gula atau sirup (sesuai selera)</li>
+            <li>Es batu secukupnya</li>
+        </ul>
+        <br />
+        <h3>Cara Membuat Avocado Button</h3>
+        <ol itemprop="recipeInstructions">
+            <li>Keruk daging alpukat dan masukkan ke dalam blender.</li>
+            <li>Tambahkan espresso, susu atau krim, dan gula atau sirup sesuai selera.</li>
+            <li>Masukkan es batu secukupnya, lalu blender hingga halus dan lembut.</li>
+            <li>Tuang ke dalam gelas saji dan siap dinikmati.</li>
+        </ol>
+        <br />
+        <h3>Tips Tambahan</h3>
+        <ol>
+            <li>Gunakan alpukat yang matang sempurna untuk tekstur yang lebih lembut dan rasa yang kaya.</li>
+            <li>Seduh espresso dengan biji kopi berkualitas tinggi untuk hasil terbaik.</li>
+            <li>Tambahkan cokelat parut atau saus karamel sebagai hiasan jika diinginkan.</li>
+        </ol>
+        <br>
+        <p><strong>Avocado Button</strong> adalah minuman unik yang memadukan kelembutan alpukat dengan kekayaan rasa kopi, memberikan pengalaman rasa yang istimewa dan menyegarkan.</p>
+        <br>
+        <img src="https://flash-coffee.com/id/wp-content/uploads/sites/13/2023/06/AVO-LATTE.png" alt="Avocado Button" width="500" itemprop="image">
+        <br />
+    </div>
+</div>
+
+
+
+<!-- Modal Chocolate Milkshake Button -->
+<div id="modal-apply5" class="modal" itemscope itemtype="https://schema.org/Recipe">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 itemprop="name">Chocolate Milkshake Button</h2>
+        <br>
+        <h3>Manfaat Chocolate Milkshake Button</h3>
+        <ul>
+            <li><span itemprop="description">Rasa Lezat: Kombinasi cokelat dan susu menciptakan rasa yang manis dan menyegarkan.</span></li>
+            <li><span itemprop="description">Energi Cepat: Gula dan susu memberikan dorongan energi instan.</span></li>
+            <li><span itemprop="description">Menenangkan: Minuman dingin ini cocok untuk mengatasi rasa haus dan memberikan kenyamanan.</span></li>
+        </ul>
+        <br>
+        <h3>Bahan-bahan yang Umum Digunakan</h3>
+        <ul itemprop="ingredients">
+            <li>200 ml susu cair dingin</li>
+            <li>3 sdm bubuk cokelat atau cokelat leleh</li>
+            <li>2 sdm gula atau sesuai selera</li>
+            <li>Es krim cokelat (opsional, untuk rasa lebih creamy)</li>
+            <li>Es batu secukupnya</li>
+            <li>Whipped cream (opsional, untuk topping)</li>
+        </ul>
+        <br />
+        <h3>Cara Membuat Chocolate Milkshake Button</h3>
+        <ol itemprop="recipeInstructions">
+            <li>Masukkan susu, bubuk cokelat, gula, dan es batu ke dalam blender.</li>
+            <li>Tambahkan es krim cokelat jika ingin tekstur yang lebih lembut dan rasa lebih kaya.</li>
+            <li>Blender hingga halus dan tercampur rata.</li>
+            <li>Tuang ke dalam gelas saji dan tambahkan whipped cream di atasnya jika diinginkan.</li>
+            <li>Sajikan segera dan nikmati kesegaran Chocolate Milkshake Button.</li>
+        </ol>
+        <br />
+        <h3>Tips Tambahan</h3>
+        <ol>
+            <li>Gunakan cokelat berkualitas tinggi untuk rasa yang lebih autentik dan kaya.</li>
+            <li>Tambahkan sirup cokelat di sisi gelas untuk tampilan yang menarik.</li>
+            <li>Bisa ditambahkan biskuit cokelat yang dihancurkan sebagai topping tambahan.</li>
+        </ol>
+        <br>
+        <p><strong>Chocolate Milkshake Button</strong> adalah minuman yang memadukan kelezatan cokelat dengan kesegaran susu, sempurna untuk dinikmati kapan saja!</p>
+        <br>
+        <img src="https://img.freepik.com/premium-photo/chocolate-milkshake-with-pieces-chocolate-chip-cookies_434193-2888.jpg" alt="Chocolate Milkshake Button" width="500" itemprop="image">
+        <br />
+    </div>
+</div>
+
+
+
+<!-- Modal Croissant Button -->
+<div id="modal-apply6" class="modal" itemscope itemtype="https://schema.org/Recipe">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 itemprop="name">Croissant Button</h2>
+        <br>
+        <h3>Manfaat Croissant Button</h3>
+        <ul>
+            <li><span itemprop="description">Tekstur Lembut dan Renyah: Lapisan luar yang renyah berpadu dengan bagian dalam yang lembut.</span></li>
+            <li><span itemprop="description">Sumber Energi: Mengandung karbohidrat dan lemak sebagai sumber energi yang cepat.</span></li>
+            <li><span itemprop="description">Cocok untuk Sarapan: Pilihan sempurna untuk menemani kopi atau teh di pagi hari.</span></li>
+        </ul>
+        <br>
+        <h3>Bahan-bahan yang Umum Digunakan</h3>
+        <ul itemprop="ingredients">
+            <li>250 g tepung terigu protein tinggi</li>
+            <li>5 g ragi instan</li>
+            <li>150 ml susu hangat</li>
+            <li>30 g gula pasir</li>
+            <li>150 g mentega dingin (untuk laminasi)</li>
+            <li>1 butir kuning telur (untuk olesan)</li>
+        </ul>
+        <br />
+        <h3>Cara Membuat Croissant Button</h3>
+        <ol itemprop="recipeInstructions">
+            <li>Campurkan tepung, ragi, gula, dan susu hangat, uleni hingga kalis.</li>
+            <li>Diamkan adonan selama 1 jam hingga mengembang dua kali lipat.</li>
+            <li>Gilas adonan dan letakkan mentega di tengahnya, lipat dan gilas kembali berulang kali untuk membuat lapisan.</li>
+            <li>Potong adonan berbentuk segitiga dan gulung dari sisi lebar hingga membentuk croissant.</li>
+            <li>Diamkan kembali selama 30 menit, lalu olesi permukaannya dengan kuning telur.</li>
+            <li>Panggang dalam oven yang sudah dipanaskan pada suhu 190°C selama 20 menit hingga keemasan.</li>
+        </ol>
+        <br />
+        <h3>Tips Tambahan</h3>
+        <ol>
+            <li>Gunakan mentega berkualitas tinggi untuk hasil rasa yang lebih kaya dan tekstur renyah.</li>
+            <li>Pastikan adonan tetap dingin selama proses laminasi untuk menjaga lapisan.</li>
+            <li>Bisa diisi dengan cokelat, keju, atau selai untuk variasi rasa.</li>
+        </ol>
+        <br>
+        <p><strong>Croissant Button</strong> adalah pastry klasik Prancis yang renyah di luar dan lembut di dalam, cocok dinikmati kapan saja!</p>
+        <br>
+        <img src="https://media.istockphoto.com/id/95380176/id/foto/croissant-segar.jpg?b=1&s=612x612&w=0&k=20&c=0Tzf70Ngm1eb6ZevksDctkeE2LlDpSpCOjKd5ZSII2M=" alt="Croissant Button" width="500" itemprop="image">
+        <br />
+    </div>
+</div>
+
+
+
+
+<script>
+        // Modal functionality for Header
+        function showModal(modalId) {
+            const modal = document.getElementById(modalId);
+            const closeModal = modal.querySelector('.close');
+            modal.style.display = 'block';
+
+            closeModal.addEventListener('click', () => {
+                modal.style.display = 'none';
+            });
+
+            window.onclick = function(event) {
+                if (event.target === modal) {
+                    modal.style.display = 'none';
+                }
+            };
+        }
+
+        // Apply Modals
+       document.getElementById('applyBtn').addEventListener('click', () => showModal('modal-apply'));
+
+
+       // Apply Modals
+       document.getElementById('applyBtn1').addEventListener('click', () => showModal('modal-apply1'));
+       document.getElementById('applyBtn2').addEventListener('click', () => showModal('modal-apply2'));
+       document.getElementById('applyBtn3').addEventListener('click', () => showModal('modal-apply3'));
+       document.getElementById('applyBtn4').addEventListener('click', () => showModal('modal-apply4'));
+       document.getElementById('applyBtn5').addEventListener('click', () => showModal('modal-apply5'));
+       document.getElementById('applyBtn6').addEventListener('click', () => showModal('modal-apply6'));
+
+        // Header Modals
+        document.getElementById('aboutBtn').addEventListener('click', () => showModal('modal-about'));
+        document.getElementById('servicesBtn').addEventListener('click', () => showModal('modal-services'));
+        document.getElementById('contactBtn').addEventListener('click', () => showModal('modal-contact'));
+
+        // Footer Modals
+        document.getElementById('aboutFooterBtn').addEventListener('click', () => showModal('modal-footer-about'));
+        document.getElementById('privacyFooterBtn').addEventListener('click', () => showModal('modal-footer-privacy'));
+        document.getElementById('termsFooterBtn').addEventListener('click', () => showModal('modal-footer-terms'));
+    </script>
+
+
+
+</body>
+</html>
